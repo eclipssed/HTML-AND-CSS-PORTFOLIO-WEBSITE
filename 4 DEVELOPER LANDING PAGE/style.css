@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.img-container {
+  min-height: 100vh;
+  background-image: url(IMAGES/11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+.txt-container {
+  font-size: 2rem;
+  color: white;
+  position: absolute;
+  min-width: 300px;
+  margin: 180px 130px;
+  
+}
+.section1 {
+  background-color: black;
+  min-height: 200px;
+  color: white;
+
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  word-spacing: 4px;
+}
+.bold {
+  font-size: 3rem;
+  font-weight: 600;
+}
+.special {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+.section2 {
+  color: white;
+  padding: 50px 200px;
+  background-color: white;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+.container {
+  max-width: 300px;
+  min-height: 400px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 9px;
+  overflow: none;
+
+
+
+}
+.space {
+  margin: 20px;
+}
+.space h2{
+    margin-bottom: 10px;
+}
+.sm-img-container {
+  min-width: 100%;
+  min-height: 100%;
+}
+img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desc1,
+.desc2 {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+.desc1 {
+  background-color: black;
+  color: white;
+}
+.desc2 {
+  background-color: white;
+  color: black;
+}
+.desc1 h2,
+.desc2 h2 {
+  margin-bottom: 10px;
+}
+.client-reviews{
+    background-color: #ccc;
+}
+.client-container{
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.client{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.reviews{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+footer {
+  text-align: center;
+  background-color: #ccc;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

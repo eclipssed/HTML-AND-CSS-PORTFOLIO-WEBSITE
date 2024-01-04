@@ -1,0 +1,266 @@
+@import url(https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar section */
+
+nav{
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    color: black;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+.navbar{
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo{
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icons i{
+    color: black;
+    opacity: 0.6;
+    font-size: 1.4rem;
+    
+}
+.icons i:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+/* hero section */
+
+.hero{
+    margin-top: 17vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-txt{
+
+    line-height: -50;
+    max-width: 400px;
+    margin-left: 150px;
+    
+}
+.hero-txt h1{
+    font-size: 4rem; 
+    line-height: 1.2;
+}
+.hero-txt p{
+    font-size: 1.5rem;  
+}
+.hero-img img{
+    border-radius: 30px;
+}
+
+/* section 2 */
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 1px solid #ccc;
+}
+.section2-txt{
+    max-width: 50%;
+    margin: 50px;
+}
+.section2-txt > p,.section2-txt > h2{
+    margin-bottom: 30px;
+}
+.sub-txt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+.section2-img{
+    min-width: 45%;
+    min-height: 100%;
+    overflow: hidden;
+   
+}
+.section2-img img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.04);
+    
+}
+
+/* section 3 */
+
+.section3{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.box{
+    border-bottom: 3px solid #ccc;
+}
+.box-img{
+    width: 100%;
+    max-height: 40%;
+}
+.box-img img{
+    width: 100%;
+    height: 100%;
+}
+.box-txt{
+    margin: 20px;
+    
+}
+.box-txt >h2, .box-txt >p{
+    margin-bottom: 20px;
+}
+
+/* section 4 */
+
+.section4{
+    margin-top: 50px;
+    background-color: #f7fafc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section4-img{
+    min-width: 50%;
+    height: 100%;
+}
+.section4-img img{
+    width: 100%;
+    height: 100%;
+}
+.section4-txt{
+    max-width: 50%;
+    margin: 100px 50px;
+    
+}
+.section4-txt > h1, .section4-txt > p{
+    margin-bottom: 30px;
+}
+.section4-txt > h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.section4-txt > p{
+    font-size: 1.1rem;
+}
+
+/* btn */
+.btn{
+    height: 20vh;
+}
+.btn a button{
+    float: right;
+    padding: 12px 30px;
+    font-weight: 600;
+    margin: 20px 0 40px auto;
+    background-color: #6b46c1;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: #4a2e9a;
+}
+.btn button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* footer */
+
+footer{
+   
+    border-top: 1px solid #ccc;
+    color: black;
+    
+}
+
+.foot{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.foot-icons{
+    font-size: 1.4rem;
+    
+    
+}
+.foot-icons .bx:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition:  all 0.3s linear;
+}
+.foot-icons .bx{
+    margin-right: 10px;
+    opacity: 0.6;
+}
+
+/* post section */
+
+.post{
+    width: 70%;
+    margin: 0 auto;
+}
+.post-img{
+    margin-top: 10vh;
+    width: 100%;
+    height: 60vh;
+}
+.post-img img{
+    width: 100%;
+    height: 100%;
+}
+.author{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.post-txt h1, .post-txt h3, .post-txt p{
+    margin: 30px 0;
+    line-height: 1.5;
+}
+.post-txt h1{
+    font-size: 2.5rem;
+    margin-bottom: -20px;
+}
+
+/* styling links */
+
+a{
+    text-decoration: none;
+    color: black;
+}

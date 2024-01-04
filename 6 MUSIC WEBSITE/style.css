@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.navbar{
+    height: 60px;
+    background-color: #270082;
+    color: white;
+    z-index: 1000;
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Hero SEction */
+
+.hero-section{
+    background-image: url(IMAGES/hero_image.png);
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt-container{
+    width: 50%;
+    text-align: center;
+}
+.txt-container h1,.txt-container h2,.txt-container p{
+    margin-bottom: 20px;
+}
+
+/* Music Section */
+
+.music-section{
+    height: 90vh;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+
+}
+.music-txt h2, h4, button, p{
+    margin-bottom: 40px;
+}
+.trial-btn{
+    background-color: red;
+}
+.btn{
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.trial-btn:hover{
+    background-color: #800020;
+    transform: scale(0.99);
+    transition: 0.1s ease-in-out;
+}
+.music-img-container{
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.music-img-container img{
+    height: 100%;
+}
+
+/* Read MOre Section */
+
+.read-more{
+    text-align: center;
+    margin-top: 60vh;
+}
+.read-more p{
+    line-height: 2;
+}
+.read-btn{
+    background-color: #37008E;
+}
+.read-btn:hover{
+     background-color: #26006B;
+    transform: scale(0.99);
+    transition: 0.1s ease-in-out;
+}
+
+/* Video Section */
+
+.video-section{
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video-section video{
+    width: 100%;
+}
+
+.video-txt{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    transform: translateY(-320%);
+}
+.video-txt h1{
+    margin-bottom: 50px;
+}
+
+/* Gift-Card Section */
+
+.gift-card{
+    width: 80%;
+   
+    transform: translateY(-30%);
+    margin: 0 auto;
+    gap: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gift-txt-container h2{
+    margin-bottom: 20px;
+}
+.gift-txt-container p{
+    line-height: 2;
+}
+.gift-txt-container button{
+    margin-top: 20px;
+    background-color: #37008E;
+}
+.gift-txt-container button:hover{
+    background-color: #26006B;
+    transform: scale(0.99);
+    transition: 0.1s ease-in-out;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #1B0058;
+    padding-top: 60px;
+    color: white;
+    height: 35vh;
+    
+}
+.foot-txt-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.foot-txt p{
+font-size: 0.8rem;
+margin-bottom: 1px;
+}
+.foot-txt h3{
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+/* Foot */
+
+.foot{
+    background-color: #270082;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot p{
+    transform: translateY(20px);
+}
